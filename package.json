@@ -1,0 +1,15 @@
+{
+  "name": "getting_started_with_testcafe",
+  "version": "1.0.0",
+  "description": "Project to use for Dev Tester blog post",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome '**/*_test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-vault": "^0.9.15",
+    "testcafe": "^1.8.3"
+  }
+}
